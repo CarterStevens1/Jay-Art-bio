@@ -22,6 +22,9 @@ body {
 
 .nav-item {
   margin-right: 2.5em; }
+  @media (max-width: 500px) {
+    .nav-item {
+      display: none; } }
 
 .nav-links {
   display: flex;
@@ -102,6 +105,9 @@ body {
   flex-wrap: wrap;
   padding: 2em 1em 1em 1em;
   align-items: center; }
+  @media (max-width: 500px) {
+    .content {
+      padding: 1em; } }
 
 .image {
   max-width: 450px;
@@ -115,6 +121,10 @@ body {
     .image {
       max-width: 450px;
       min-width: 300px; } }
+  @media (max-width: 500px) {
+    .image {
+      margin-left: 0;
+      margin-right: 0; } }
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.863);

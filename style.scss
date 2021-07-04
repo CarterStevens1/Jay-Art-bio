@@ -29,6 +29,10 @@ body {
 
 .nav-item {
   margin-right: 2.5em;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 }
 
 .nav-links {
@@ -127,6 +131,9 @@ body {
   flex-wrap: wrap;
   padding: 2em 1em 1em 1em;
   align-items: center;
+  @media (max-width: 500px) {
+    padding: 1em;
+  }
 }
 
 .image {
@@ -142,6 +149,10 @@ body {
   @media (max-width: 1250px) {
     max-width: 450px;
     min-width: 300px;
+  }
+  @media (max-width: 500px) {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 .overlay {
