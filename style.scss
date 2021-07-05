@@ -20,13 +20,6 @@ body {
   flex-direction: column;
 }
 
-.logo-box {
-  //   max-width: 400px;
-  height: 120px;
-  //   padding: 0em 0em 0.5em 0em;
-  //   z-index: -2;
-}
-
 .nav-item {
   margin-right: 2.5em;
 
@@ -37,9 +30,9 @@ body {
 
 .nav-links {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
-  width: 90vw;
+  width: 95%;
   flex-wrap: wrap-reverse;
   a {
     font-size: 20px;
@@ -49,6 +42,12 @@ body {
     text-decoration: none;
     padding-bottom: 8px;
     margin-top: 0.5em;
+  }
+  i {
+    margin-right: 1.5em;
+  }
+  span {
+    text-align: center;
   }
 
   @media (max-width: 650px) {
@@ -67,11 +66,63 @@ body {
     margin-left: 0;
   }
 }
+.closebtn,
+.burger {
+  display: none;
+}
 
-.box {
-  flex: 1;
-  display: flex;
-  justify-content: center;
+// .box {
+//   flex: 1;
+//   display: flex;
+//   justify-content: center;
+// }
+@media (max-width: 500px) {
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+    &:hover {
+      color: #f1f1f1;
+    }
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .closebtn,
+  .burger {
+    display: block;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
 }
 
 .nav-links a:before,
@@ -127,12 +178,13 @@ body {
   }
 }
 .content {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2em 1em 1em 1em;
-  align-items: center;
-  @media (max-width: 500px) {
-    padding: 1em;
+  padding: 1em;
+
+  @media (min-width: 500px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 1em 1em 1em;
+    align-items: center;
   }
 }
 
@@ -153,6 +205,8 @@ body {
   @media (max-width: 500px) {
     margin-left: 0;
     margin-right: 0;
+    max-width: 300px;
+    min-width: 280px;
   }
 }
 .overlay {
