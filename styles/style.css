@@ -131,6 +131,9 @@
 
   .sidenav a {
     font-size: 18px; } }
+form {
+  text-align: center; }
+
 * {
   box-sizing: border-box; }
 
