@@ -9,7 +9,7 @@
   >
   <div class=" links sidenav">
     <a href="javascript:void(0)" class="closebtn">&times;</a>
-    <a href="#" class="nav-item">Home</a>
+    <a href="index.php" class="nav-item">Home</a>
     <a href="#" class="nav-item">About</a>
     <a href="contact.php" class="nav-item">Contact</a>
     <a href="#" class="nav-item">Store</a>
