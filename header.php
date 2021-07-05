@@ -23,7 +23,7 @@
         <a class="icons" href=""> <i class="fab fa-linkedin-in"></i></a>
       </div>
     
-    </td>
+    
   </div>
 </div>
 </div>
