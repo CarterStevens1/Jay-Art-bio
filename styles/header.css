@@ -74,10 +74,12 @@
 
 .icons {
   margin-right: 1.5em; }
+  @media (max-width: 650px) {
+    .icons {
+      margin-right: 0; } }
 
 .logo {
   max-width: 250px;
-  cursor: pointer;
   margin-top: 1em; }
   @media (max-width: 650px) {
     .logo {

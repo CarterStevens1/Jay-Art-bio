@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/contact.css" media="all"/>
+    <link rel="stylesheet" href="styles/contact.css" />
     <script
       src="https://kit.fontawesome.com/dc7bf59d0f.js"
       crossorigin="anonymous"
@@ -16,11 +17,31 @@
   <body>
     <?php include('header.php'); ?>
 
-    <form action="mail.php" method="POST">
-<p>Name</p> <input type="text" name="name">
-<p>Email</p> <input type="text" name="email">
-<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-<input type="submit" value="Send"><input type="reset" value="Clear">
-</form>
+    <div class="contact-form">
+      <h2 class="contact">CONTACT US</h2>
 
+      <form action="mail.php" method="POST">
+        <input
+          name="name"
+          type="text"
+          class="feedback-input"
+          placeholder="Name"
+        />
+        <input
+          name="email"
+          type="text"
+          class="feedback-input"
+          placeholder="Email"
+        />
+        <textarea
+          name="message"
+          type="text"
+          class="feedback-input"
+          placeholder="Comment"
+        ></textarea>
+        <input type="submit" value="SUBMIT" />
+      </form>
+    </div>
+    <script src="scripts/script.js"></script>
   </body>
+</html>
