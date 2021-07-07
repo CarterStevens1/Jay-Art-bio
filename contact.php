@@ -19,7 +19,7 @@
 
     <div class="contact-form">
       <h2 class="contact">CONTACT US</h2>
-
+      <h3>Contact today to find out more about what i can do for you and for personalised prints.</h3>
       <form action="mail.php" method="POST">
         <input
           name="name"

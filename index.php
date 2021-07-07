@@ -15,42 +15,50 @@
   <body>
     <?php include('header.php'); ?>
 
-    <div class="overlay hidden"></div>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
 
     <div class="content">
       <div class="image">
-        <img src="images/CLCKWSNettle.png" alt="" />
+        <img class="myImage" src="images/CLCKWSNettle.png" alt="Hand with Nettle, Album cover" />
       </div>
       <div class="image">
-        <img src="images/CLCKWSNettleBlack.png" alt="" />
+        <img class="myImage" src="images/CLCKWSNettleBlack.png" alt="Hand with Nettle, Album cover (Black Background)" />
       </div>
       <div class="image">
-        <img src="images/KimLommaertProef.jpg" alt="" />
+        <img class="myImage" src="images/KimLommaertProef.jpg" alt="Photography Logo for Kim Lommaert" />
       </div>
       <div class="image">
-        <img src="images/Kessassa.png" alt="" />
+        <img class="myImage" src="images/Kessassa.png" alt="Kessassa God" />
       </div>
 
       <div class="image">
-        <img src="images/Sparkles_smoke_fingers.png" alt="" />
+        <img class="myImage" src="images/Sparkles_smoke_fingers.png" alt="Sparkles youtuber logo" />
       </div>
       <div class="image">
-        <img src="images/RWTV_Logo.jpg" alt="" />
+        <img class="myImage" src="images/RWTV_Logo.jpg" alt=" RWTV Logo" />
       </div>
       <div class="image">
-        <img src="images/DeIdealeWereld_FINAL_JPEG.jpg" alt="" />
+        <img
+          class="myImage"
+          src="images/DeIdealeWereld_FINAL_JPEG.jpg"
+          alt="Underwater Serpent"
+        />
       </div>
       <div class="image">
-        <img src="images/PlankWhiteBGTekst.jpg" alt="" />
+        <img class="myImage" src="images/PlankWhiteBGTekst.jpg" alt="Drawing of a girl in the window" />
       </div>
       <div class="image">
-        <img src="images/SnakeCTattooOnlySnek.png" alt="" />
+        <img class="myImage" src="images/SnakeCTattooOnlySnek.png" alt="'CS' snake tattoo" />
       </div>
       <div class="image">
-        <img src="images/Oelegang.jpg" alt="" />
+        <img class="myImage" src="images/Oelegang.jpg" alt="Oelegang Logo" />
       </div>
       <div class="image">
-        <img src="images/Redraw_No4_Step_by_Step.png" alt="" />
+        <img class="myImage" src="images/Redraw_No4_Step_by_Step.png" alt="Number 4 sketch step by step" />
       </div>
     </div>
 

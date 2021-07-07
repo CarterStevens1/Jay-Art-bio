@@ -2,10 +2,13 @@
 
 <div class="nav-links">
   <div class=" logo-box">
-   <img class="logo" src="images/JayEnvyLogo2.png" alt="Jay Envy Logo" />
-  </div>
   <span class="burger" style="font-size: 30px; cursor: pointer"
     >&#9776;</span>
+   <img class="logo" src="images/JayEnvyLogo2.png" alt="Jay Envy Logo" />
+   <span class="burger hidden" style="font-size: 30px; cursor: pointer"
+    >&#9776;</span>
+  </div>
+
     
   <div class=" links sidenav">
     <a href="javascript:void(0)" class="closebtn">&times;</a>
@@ -18,8 +21,8 @@
     
       <div class="social">
         <a class="icons" href=""><i class="fab fa-facebook"></i></a>
-        <a class="icons" href=""><i class="fab fa-twitter"></i></a>
-        <a class="icons" href=""><i class="fab fa-instagram"></i></a>
+        <a class="icons" href="https://twitter.com/RealJayEnvy"><i class="fab fa-twitter"></i></a>
+        <a class="icons" href="https://www.instagram.com/jay.env/"><i class="fab fa-instagram"></i></a>
         <a class="icons" href="https://www.linkedin.com/in/jelle-vermeulen-7202868b/"> <i class="fab fa-linkedin-in"></i></a>
       </div>
     

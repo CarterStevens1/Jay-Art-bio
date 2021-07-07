@@ -8,10 +8,16 @@
 
 .nav-item {
   margin-right: 2.5em;
+  width: 100%;
 
   @media (max-width: 500px) {
     display: none;
     margin-right: 4.5em;
+  }
+}
+@media (max-width: 650px) {
+  .nav-item:hover {
+    background-color: grey;
   }
 }
 
@@ -100,15 +106,16 @@
   max-width: 250px;
   // width: 100%;
   // z-index: -100;
-
   margin-top: 1em;
-  @media (max-width: 650px) {
-    margin-left: 0;
-  }
 }
+
 .closebtn,
 .burger {
   display: none;
+}
+
+.hidden {
+  visibility: hidden !important;
 }
 
 @media (max-width: 650px) {
@@ -148,10 +155,17 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    padding: 0px;
   }
   .closebtn,
   .burger {
     display: block;
+  }
+  .logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
   }
 
   @media screen and (max-height: 450px) {
@@ -161,5 +175,25 @@
     .sidenav a {
       font-size: 18px;
     }
+  }
+}
+
+//Solo Media Q
+@media (max-width: 880px) and (min-width: 650px) {
+  .social {
+    padding-top: 1em;
+  }
+  .links {
+    text-align: center;
+  }
+  .logo-box {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    max-width: 200px;
+    padding-left: 0.5em;
   }
 }
