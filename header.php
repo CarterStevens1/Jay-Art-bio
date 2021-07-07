@@ -15,7 +15,7 @@
     <a href="index.php" class="nav-item">Home</a>
     <a href="about.php" class="nav-item">About</a>
     <a href="contact.php" class="nav-item">Contact</a>
-    <a href="#" class="nav-item">Store</a>
+    <a href="store.php" class="nav-item">Store</a>
     <a href="#" class="nav-item">Prints</a>
 
     
