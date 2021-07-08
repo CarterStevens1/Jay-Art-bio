@@ -7,9 +7,10 @@
 
 .item {
   flex: 1;
+  padding: 1em;
 }
 .productImage {
-  height: 450px;
+  height: 400px;
   width: auto;
 }
 
@@ -24,4 +25,19 @@ h3 {
 .price {
   font-size: 30px;
   margin: 0;
+}
+
+.addCart {
+  margin-top: 10px;
+  font-size: 18px;
+  border: 1px solid #f49717;
+  border-radius: 5px;
+  background-color: #f49717;
+  padding: 0.3em;
+  cursor: pointer;
+}
+
+select {
+  font-size: 20px;
+  width: 100px;
 }

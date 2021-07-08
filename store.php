@@ -24,26 +24,64 @@
     <h3>Hand and Nettle (Album Cover)</h3>
 
     <p class="price">£10.00</p>
+    <select>
+    <option value="4x4">4 x 4</option>
+    <option value="8x8">8 x 8</option>
+    <option value="12x12">12 x 12</option>
+    </select>
+    <br>
+    <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
     </div>
     </div>
     <div class="item">
     <div class="productImage">
-  <img src="images/CLCKWSNettleBlack.png" alt="Nettle and hand album cover black" class="product">
+  <img src="images/CLCKWSNettleBlackSmall.png" alt="Nettle and hand album cover black" class="product">
     </div>
     <div class="text-price">
     <h3>Hand and Nettle Black (Album Cover)</h3>
 
     <p class="price">£10.00</p>
+    <select>
+    <option value="4x4">4 x 4</option>
+    <option value="8x8">8 x 8</option>
+    <option value="12x12">12 x 12</option>
+    </select>
+    <br>
+    <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
     </div>
     </div>
     <div class="item">
     <div class="productImage">
-  <img src="images/Kessassa.png" alt="Kessassa" class="product">
+  <img src="images/KessassaSmall.png" alt="Kessassa" class="product">
     </div>
     <div class="text-price">
     <h3>Kessassa Print</h3>
 
     <p class="price">£10.00</p>
+    <select>
+    <option value="4x4">4 x 4</option>
+    <option value="8x8">8 x 8</option>
+    <option value="12x12">12 x 12</option>
+    </select>
+    <br>
+    <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+    </div>
+    </div>
+    <div class="item">
+    <div class="productImage">
+  <img src="images/PlankWhiteBGTekst.jpg" class="product">
+    </div>
+    <div class="text-price">
+    <h3>Window Girl</h3>
+
+    <p class="price">£10.00</p>
+    <select>
+    <option value="4x4">4 x 4</option>
+    <option value="8x8">8 x 8</option>
+    <option value="12x12">12 x 12</option>
+    </select>
+    <br>
+    <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
     </div>
     </div>
     </div>
