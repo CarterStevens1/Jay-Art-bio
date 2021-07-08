@@ -75,7 +75,7 @@
     <h3>Window Girl</h3>
 
     <p class="price">£10.00</p>
-    <select>
+    <select id="option">
     <option value="4x4">4 x 4</option>
     <option value="8x8">8 x 8</option>
     <option value="12x12">12 x 12</option>

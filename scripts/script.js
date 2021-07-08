@@ -34,3 +34,10 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function () {
   modal.style.display = "none";
 };
+
+// const option = document.getElementById("option").selectedIndex;
+// const price = document.querySelector(".price");
+
+// if (option == "8 x 8") {
+//   price.innerHTML = "£20";
+// }
