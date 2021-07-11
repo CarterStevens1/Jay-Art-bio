@@ -186,15 +186,16 @@ body {
       align-items: center; } }
 
 .image {
-  max-width: 450px;
+  max-width: 353px;
   min-width: 350px;
   margin: 1.5em;
   flex: 1;
   cursor: pointer; }
   .image img {
     width: 100%;
-    height: auto;
-    position: relative; }
+    height: 400px;
+    position: relative;
+    object-fit: scale-down; }
   @media (max-width: 1250px) {
     .image {
       max-width: 550px;

@@ -20,7 +20,6 @@
 
     
       <div class="social">
-        <a class="icons" href=""><i class="fab fa-facebook"></i></a>
         <a class="icons" href="https://twitter.com/RealJayEnvy"><i class="fab fa-twitter"></i></a>
         <a class="icons" href="https://www.instagram.com/jay.env/"><i class="fab fa-instagram"></i></a>
         <a class="icons" href="https://www.linkedin.com/in/jelle-vermeulen-7202868b/"> <i class="fab fa-linkedin-in"></i></a>
