@@ -6,7 +6,8 @@
 
 .item {
   flex: 1;
-  padding: 1em; }
+  padding: 1em 1em 5em 1em;
+  min-width: 400px; }
 
 .productImage {
   height: 400px;
