@@ -44,12 +44,12 @@
       <div class="image">
         <img
           class="myImage"
-          src="images/DeIdealeWereld_FINAL_JPEG.jpg"
+          src="images/DeIdealeWereld_FINAL_JPEG.png"
           alt="Underwater Serpent"
         />
       </div>
       <div class="image">
-        <img class="myImage" src="images/PlankWhiteBGTekst.jpg" alt="Drawing of a girl in the window" />
+        <img class="myImage" src="images/PlankWhiteBGTekst.png" alt="Drawing of a girl in the window" />
       </div>
       <div class="image">
         <img class="myImage" src="images/SnakeCTattooOnlySnek.png" alt="'CS' snake tattoo" />
@@ -59,6 +59,9 @@
       </div>
       <div class="image">
         <img class="myImage" src="images/Redraw_No4_Step_by_Step.png" alt="Number 4 sketch step by step" />
+      </div>
+      <div class="image">
+      <img class="myImage" src="images/SkibbaLogo.png" alt="Skibba" />
       </div>
     </div>
 

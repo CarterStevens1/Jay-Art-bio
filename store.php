@@ -57,7 +57,7 @@
     </div>
     <div class="item">
     <div class="productImage">
-  <img src="images/PlankWhiteBGTekst.jpg" class="product">
+  <img src="images/PlankWhiteBGTekst.png" class="product">
     </div>
     <div class="text-price">
     <h3>Window Girl</h3>
@@ -70,7 +70,7 @@
     </div>
     <div class="item">
     <div class="productImage">
-  <img src="images/DeIdealeWereld_FINAL_JPEG.jpg" class="product">
+  <img src="images/DeIdealeWereld_FINAL_JPEG.png" class="product">
     </div>
     <div class="text-price">
     <h3>Sea Serpent</h3>

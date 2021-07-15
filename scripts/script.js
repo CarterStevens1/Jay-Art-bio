@@ -31,9 +31,9 @@ for (var i = 0; i < images.length; i++) {
 
 var span = document.getElementsByClassName("close")[0];
 
-span.onclick = function () {
+span.addEventListener("click", () => {
   modal.style.display = "none";
-};
+});
 
 // const option = document.getElementById("option").selectedIndex;
 // const price = document.querySelector(".price");

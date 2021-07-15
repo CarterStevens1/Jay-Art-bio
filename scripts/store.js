@@ -3,38 +3,38 @@ const addToCart = document.querySelectorAll(".addCart");
 let products = [
   {
     name: "Hand and Nettle (Album Cover)",
-    tag: "pinkNettle",
-    Price: 10,
+    tag: "CLCKWSNettle",
+    price: 10,
     inCart: 0,
   },
   {
     name: "Hand and Nettle (Album Cover Black)",
-    tag: "nlackNettle",
-    Price: 10,
+    tag: "CLCKWSNettleBlack",
+    price: 10,
     inCart: 0,
   },
   {
     name: "Kessassa Print",
-    tag: "kessassa",
-    Price: 20,
+    tag: "Kessassa",
+    price: 20,
     inCart: 0,
   },
   {
     name: "Window Girl",
-    tag: "window",
-    Price: 12,
+    tag: "PlankWhiteBGTekst",
+    price: 12,
     inCart: 0,
   },
   {
     name: "Sea Serpent",
-    tag: "serpent",
-    Price: 18,
+    tag: "DeIdealeWereld_FINAL_JPEG",
+    price: 18,
     inCart: 0,
   },
   {
     name: "Skibba",
-    tag: "skibba",
-    Price: 8,
+    tag: "SkibbaLogo",
+    price: 8,
     inCart: 0,
   },
 ];
@@ -42,12 +42,14 @@ let products = [
 for (let i = 0; i < addToCart.length; i++) {
   addToCart[i].addEventListener("click", () => {
     cartNumbers(products[i]);
+    totalCost(products[i]);
   });
 }
 
 function onLoadCart() {
+  let productNumbers;
   if (productNumbers) {
-    let productNumbers = localStorage.getItem("cartNumbers");
+    productNumbers = localStorage.getItem("cartNumbers");
   }
 }
 
@@ -84,8 +86,62 @@ function setItems(product) {
       [product.tag]: product,
     };
   }
-
   localStorage.setItem("productsInCart", JSON.stringify(cartItems));
 }
 
+function totalCost(product) {
+  let cartCost = localStorage.getItem("totalCost");
+
+  if (cartCost != null) {
+    cartCost = parseInt(cartCost);
+    localStorage.setItem("totalCost", cartCost + product.price);
+  } else {
+    localStorage.setItem("totalCost", product.price);
+  }
+}
+
+function displayCart() {
+  let cartCost = localStorage.getItem("totalCost");
+  let cartItems = localStorage.getItem("productsInCart");
+  cartItems = JSON.parse(cartItems);
+  let productContainer = document.querySelector(".products-container");
+  let products = document.querySelector(".products");
+  if (cartItems && productContainer) {
+    products.innerHTML = "";
+    Object.values(cartItems).map((item) => {
+      products.innerHTML += `<div class='product'>
+  
+      <img src='/images/${item.tag}.png'>
+      <span class="name ">${item.name}</span>
+      </div>
+      <div class="price-amount line">
+      $${item.price},00
+      </div>
+      <div class="quantity line">
+      <i class="fas fa-arrow-circle-left decrease"></i>
+      <span> ${item.inCart} </span>
+      <i class="fas fa-arrow-circle-right increase"></i>
+      </div>
+      <div class="total line ">
+      $${item.inCart * item.price},00
+      
+      </div>
+     
+      `;
+    });
+    products.innerHTML += `
+      <div class ="basketTotalContainer">
+        <h4 class="basketTotalTitle">
+        Basket Total
+        </h4>
+        <h4 class ="basketTotal">
+        $${cartCost},00
+        </h4>
+        </div>
+      `;
+  }
+}
+
 onLoadCart();
+displayCart();
+// <i class="fas fa-times-circle"></i>

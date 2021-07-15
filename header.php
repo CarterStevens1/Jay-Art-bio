@@ -23,7 +23,7 @@
         <a class="icons" href="https://twitter.com/RealJayEnvy"><i class="fab fa-twitter"></i></a>
         <a class="icons" href="https://www.instagram.com/jay.env/"><i class="fab fa-instagram"></i></a>
         <a class="icons" href="https://www.linkedin.com/in/jelle-vermeulen-7202868b/"> <i class="fab fa-linkedin-in"></i></a>
-        <a class="icons" href=> <i class="fas fa-shopping-cart"></i> Cart 0</a>
+        <a class="icons" href="cart.php"> <i class="fas fa-shopping-cart"></i> Shopping Cart</a>
       </div>
     
     
