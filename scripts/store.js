@@ -111,7 +111,7 @@ function displayCart() {
     Object.values(cartItems).map((item) => {
       products.innerHTML += `<div class='product'>
   
-      <img src='/images/${item.tag}.png'>
+      <img class="img-product" src='/images/${item.tag}.png'>
       <span class="name ">${item.name}</span>
       </div>
       <div class="price-amount line">
