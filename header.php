@@ -16,14 +16,14 @@
     <a href="about.php" class="nav-item">About</a>
     <a href="contact.php" class="nav-item">Contact</a>
     <a href="store.php" class="nav-item">Store</a>
-    <a href="#" class="nav-item">Prints</a>
+    <a class="nav-item" href="cart.php"> <i class="fas fa-shopping-cart"></i> Cart</a>
 
     
       <div class="social">
         <a class="icons" href="https://twitter.com/RealJayEnvy"><i class="fab fa-twitter"></i></a>
         <a class="icons" href="https://www.instagram.com/jay.env/"><i class="fab fa-instagram"></i></a>
         <a class="icons" href="https://www.linkedin.com/in/jelle-vermeulen-7202868b/"> <i class="fab fa-linkedin-in"></i></a>
-        <a class="icons" href="cart.php"> <i class="fas fa-shopping-cart"></i> Shopping Cart</a>
+  
       </div>
     
     

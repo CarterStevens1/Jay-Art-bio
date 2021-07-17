@@ -23,7 +23,7 @@
     <div class="text-price">
     <h3>Hand and Nettle (Album Cover)</h3>
 
-    <p class="price">£10.00</p>
+    <p class="price">$10.00</p>
     
     
     <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
@@ -36,7 +36,7 @@
     <div class="text-price">
     <h3>Hand and Nettle Black (Album Cover)</h3>
 
-    <p class="price">£10.00</p>
+    <p class="price">$10.00</p>
    
     
     <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
@@ -49,7 +49,7 @@
     <div class="text-price">
     <h3>Kessassa Print</h3>
 
-    <p class="price">£20.00</p>
+    <p class="price">$20.00</p>
 
  
     <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
@@ -62,7 +62,7 @@
     <div class="text-price">
     <h3>Window Girl</h3>
 
-    <p class="price">£12.00</p>
+    <p class="price">$12.00</p>
  
   
     <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
@@ -75,7 +75,7 @@
     <div class="text-price">
     <h3>Sea Serpent</h3>
 
-    <p class="price">£18.00</p>
+    <p class="price">$18.00</p>
  
   
     <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
@@ -88,7 +88,7 @@
     <div class="text-price">
     <h3>Skibba</h3>
 
-    <p class="price">£8.00</p>
+    <p class="price">$8.00</p>
  
   
     <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>

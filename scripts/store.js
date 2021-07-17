@@ -118,9 +118,9 @@ function displayCart() {
       $${item.price},00
       </div>
       <div class="quantity line">
-      <i class="fas fa-arrow-circle-left decrease"></i>
-      <span> ${item.inCart} </span>
-      <i class="fas fa-arrow-circle-right increase"></i>
+      <i class="fas fa-angle-left increase"></i>
+      <span class="cartNumber"> ${item.inCart} </span>
+      <i class="fas fa-angle-right decrease"></i>
       </div>
       <div class="total line ">
       $${item.inCart * item.price},00
@@ -140,6 +140,22 @@ function displayCart() {
         </div>
       `;
   }
+}
+
+const increase = document.querySelector(".increase");
+const cartNumber = document.querySelector(".cartNumber");
+
+function increaseButton(product) {
+  let cartItems = localStorage.getItem("productsInCart");
+  cartItems = JSON.parse(cartItems);
+
+  cartItems[product.tag].inCart += 1;
+  cartNumber + 1;
+  cartItems = {
+    [product.tag]: product,
+  };
+
+  localStorage.setItem("productsInCart", JSON.stringify(cartItems));
 }
 
 onLoadCart();

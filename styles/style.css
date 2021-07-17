@@ -79,7 +79,7 @@
   color: #000; }
 
 .icons {
-  margin-right: 1.5em; }
+  margin-right: 1em; }
   @media (max-width: 650px) {
     .icons {
       margin-right: 0; } }
@@ -183,7 +183,8 @@ body {
       display: flex;
       flex-wrap: wrap;
       padding: 2em 1em 1em 1em;
-      align-items: center; } }
+      align-items: center;
+      justify-content: center; } }
 
 .image {
   max-width: 353px;
