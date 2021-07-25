@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/store.css" />
+    
     <script
       src="https://kit.fontawesome.com/dc7bf59d0f.js"
       crossorigin="anonymous"
@@ -26,7 +27,7 @@
     <p class="price">$10.00</p>
     
     
-    <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+    <?php include('button.php'); ?>
     </div>
     </div>
     <div class="item">
@@ -39,7 +40,7 @@
     <p class="price">$10.00</p>
    
     
-    <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+    <?php include('button.php'); ?>
     </div>
     </div>
     <div class="item">
@@ -52,7 +53,8 @@
     <p class="price">$20.00</p>
 
  
-    <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+    <?php include('button.php'); ?>
+
     </div>
     </div>
     <div class="item">
@@ -65,7 +67,7 @@
     <p class="price">$12.00</p>
  
   
-    <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+    <?php include('button.php'); ?>
     </div>
     </div>
     <div class="item">
@@ -78,7 +80,7 @@
     <p class="price">$18.00</p>
  
   
-    <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+    <?php include('button.php'); ?>
     </div>
     </div>
     <div class="item">
@@ -91,13 +93,15 @@
     <p class="price">$8.00</p>
  
   
-    <button class="addCart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+    <?php include('button.php'); ?>
     </div>
     </div>
     </div>
 
-    
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin3.min.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/store.js"></script>
+    <script src="scripts/storePage.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-const addToCart = document.querySelectorAll(".addCart");
+const addToCart = document.querySelectorAll(".add-to-cart");
 
 let products = [
   {
@@ -59,10 +59,8 @@ function cartNumbers(product) {
 
   if (productNumbers) {
     localStorage.setItem("cartNumbers", productNumbers + 1);
-    alert("Item added to cart!");
   } else {
     localStorage.setItem("cartNumbers", 1);
-    alert("Item added to cart!");
   }
   setItems(product);
 }
@@ -118,9 +116,9 @@ function displayCart() {
       $${item.price},00
       </div>
       <div class="quantity line">
-      <i class="fas fa-angle-left increase"></i>
+      <i class="fas fa-angle-left decrease"></i>
       <span class="cartNumber"> ${item.inCart} </span>
-      <i class="fas fa-angle-right decrease"></i>
+      <i class="fas fa-angle-right increase"></i>
       </div>
       <div class="total line ">
       $${item.inCart * item.price},00
@@ -142,22 +140,7 @@ function displayCart() {
   }
 }
 
-const increase = document.querySelector(".increase");
-const cartNumber = document.querySelector(".cartNumber");
-
-function increaseButton(product) {
-  let cartItems = localStorage.getItem("productsInCart");
-  cartItems = JSON.parse(cartItems);
-
-  cartItems[product.tag].inCart += 1;
-  cartNumber + 1;
-  cartItems = {
-    [product.tag]: product,
-  };
-
-  localStorage.setItem("productsInCart", JSON.stringify(cartItems));
-}
-
 onLoadCart();
 displayCart();
+
 // <i class="fas fa-times-circle"></i>
