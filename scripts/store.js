@@ -107,7 +107,8 @@ function displayCart() {
   if (cartItems && productContainer) {
     products.innerHTML = "";
     Object.values(cartItems).map((item) => {
-      products.innerHTML += `<div class='product'>
+      products.innerHTML += `<div class='wrap'>
+      <div class='product'>
   
       <img class="img-product" src='/images/${item.tag}.png'>
       <span class="name ">${item.name}</span>
@@ -124,6 +125,7 @@ function displayCart() {
       $${item.inCart * item.price},00
       
       </div>
+      </div>
      
       `;
     });
@@ -139,6 +141,25 @@ function displayCart() {
       `;
   }
 }
+
+// window.addEventListener("load", () => {
+//   const decrease = document.querySelectorAll(".decrease");
+//   const cartNumber = document.querySelector(".cartNumber");
+//   let wrap = document.querySelectorAll(".wrap");
+//   decrease.forEach((low) => {
+//     low.addEventListener("click", () => {
+//       cartNumber.innerHTML = cartNumber.innerHTML - 1;
+//     });
+//   });
+
+//   const increase = document.querySelectorAll(".increase");
+//   increase.forEach((up) => {
+//     up.addEventListener("click", () => {
+//       cartNumber.innerHTML = cartNumber.innerHTML + 1;
+//     });
+//   });
+
+// });
 
 onLoadCart();
 displayCart();
