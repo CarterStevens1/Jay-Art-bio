@@ -141,6 +141,11 @@ function displayCart() {
       `;
   }
 }
+// Increase cart numbers on click for each specific one(aswell as local storage)
+// Decrease cart numbers on click for each specific one(aswell as local storage) (remove if goes below 1 or stop and keep on 1))
+//Add a remove button to remove from cart/LS
+//Update Total cost &Total with increment/decrement
+//Add a payment page
 
 // window.addEventListener("load", () => {
 //   const decrease = document.querySelectorAll(".decrease");
