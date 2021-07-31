@@ -1,3 +1,9 @@
+body {
+  background-color: #6e6e64; }
+
+.nav {
+  background-color: #fff !important; }
+
 form,
 .contact-form {
   max-width: 800px;
@@ -7,7 +13,8 @@ form,
 .contact-form {
   display: flex;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  color: #fff; }
 
 .contact {
   font-size: 30px;
@@ -23,8 +30,8 @@ h3 {
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
-  background-color: transparent;
-  border: 2px solid #f49717;
+  background-color: #fff;
+  border: none;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -43,7 +50,7 @@ textarea {
 [type="submit"] {
   font-family: inherit;
   width: 100%;
-  background: #f4981700;
+  background: #f49717;
   border: 2px solid #f49717;
   border-radius: 5px;
   cursor: pointer;

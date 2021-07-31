@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 .products-container {
   display: flex;
   flex-wrap: wrap;
@@ -87,6 +88,9 @@
 
 .cartNumber {
   font-size: 25px; }
+
+.text-price h3 {
+  font-family: "Roboto", sans-serif; }
 
 @media (max-width: 650px) {
   .name {

@@ -1,0 +1,46 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  max-width: 80%;
+  margin: 8em auto;
+  padding-bottom: 4em;
+}
+
+.about-text {
+  max-width: 50%;
+  padding-left: 2em;
+
+  p {
+    font-size: 20px;
+    line-height: 1.4em;
+  }
+
+  h1::first-letter {
+    color: #f49717;
+    font-size: 4em;
+    float: left;
+    line-height: 0.84em;
+  }
+
+  h1 {
+    color: #6e6e64;
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  span {
+    color: #f49717;
+  }
+}
+
+.about-image {
+  max-width: 50%;
+
+  img {
+    max-width: 600px;
+    height: auto;
+    box-shadow: 10px 10px 10px #00000052;
+    border-radius: 20px 80px 80px 80px;
+  }
+}

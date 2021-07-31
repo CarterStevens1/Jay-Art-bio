@@ -2,13 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:ital@1&display=swap");
 
 @import "styles/header.scss";
+@import "styles/footer.scss";
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Alegreya SC", serif;
+  font-family: "Roboto", sans-serif;
   height: 100vh;
   overflow-x: hidden;
   margin: 0;
@@ -18,11 +19,6 @@ body {
 
 .social {
   display: inline-block;
-  @media (max-width: 650px) {
-    position: absolute;
-    display: block;
-    bottom: 1em;
-  }
 }
 .content {
   padding: 1em;

@@ -22,8 +22,9 @@ h3 {
   margin: 0.5em 0 0 0; }
 
 .price {
-  font-size: 30px;
-  margin: 0; }
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 20px; }
 
 .addCart {
   margin-top: 10px;
@@ -37,6 +38,10 @@ h3 {
 select {
   font-size: 20px;
   width: 100px; }
+
+.text-price {
+  font-family: "Roboto", sans-serif;
+  color: #6e6e64; }
 
 .add-to-cart {
   --background-default: #f49717;
