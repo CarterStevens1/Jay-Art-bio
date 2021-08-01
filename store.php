@@ -103,5 +103,6 @@
     <script src="scripts/script.js"></script>
     <script src="scripts/store.js"></script>
     <script src="scripts/storePage.js"></script>
+    <?php include('footer.php'); ?>
   </body>
 </html>

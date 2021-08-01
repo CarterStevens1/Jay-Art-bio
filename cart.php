@@ -31,7 +31,7 @@
     </div>
 
 
-    
+    <?php include('footer.php'); ?>
     <script src="scripts/script.js"></script>
     <script src="scripts/store.js"></script>
   </body>

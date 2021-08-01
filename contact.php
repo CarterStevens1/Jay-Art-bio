@@ -42,6 +42,7 @@
         <input type="submit" value="SUBMIT" />
       </form>
     </div>
+    <?php include('footer.php'); ?>
     <script src="scripts/script.js"></script>
   </body>
 </html>
