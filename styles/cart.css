@@ -92,6 +92,9 @@
 .text-price h3 {
   font-family: "Roboto", sans-serif; }
 
+.total i {
+  margin-left: 1em; }
+
 @media (max-width: 650px) {
   .name {
     display: none; } }

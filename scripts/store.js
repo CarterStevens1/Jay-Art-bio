@@ -123,7 +123,7 @@ function displayCart() {
       </div>
       <div class="total line ">
       $${item.inCart * item.price},00
-      
+      <p><i class="far fa-times-circle remove"></i></p>
       </div>
       </div>
      
@@ -146,6 +146,19 @@ function displayCart() {
 // Decrease cart numbers on click for each specific one(aswell as local storage) (remove if goes below 1 or stop and keep on 1))
 
 //Add a remove button to remove from cart/LS
+
+// window.onload = function () {
+//   function removeAll() {
+//     let cartItems = localStorage.getItem("productsInCart");
+//     localStorage.removeItem("productsInCart", JSON.stringify(cartItems));
+//   }
+
+//   removeButton = document.querySelector(".remove");
+
+//   removeButton.addEventListener("click", () => {
+//     removeAll();
+//   });
+// };
 
 //Update Total cost &Total with increment/decrement
 

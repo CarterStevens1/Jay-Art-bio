@@ -45,4 +45,7 @@ a.icons:hover {
     .icons {
       margin-right: 0.5em; } }
 
+.icons:last-of-type {
+  margin-right: 0em; }
+
 /*# sourceMappingURL=footer.css.map */
