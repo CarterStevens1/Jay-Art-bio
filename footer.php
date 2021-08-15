@@ -1,9 +1,9 @@
 <footer>
       <div class="footer">
       <div class="social">
-        <a class="icons" href="https://twitter.com/RealJayEnvy"><i class="fab fa-twitter"></i></a>
-        <a class="icons" href="https://www.instagram.com/jay.env/"><i class="fab fa-instagram"></i></a>
-        <a class="icons" href="https://www.linkedin.com/in/jelle-vermeulen-7202868b/"> <i class="fab fa-linkedin-in"></i></a>
+        <a class="icons" target="_blank" href="https://twitter.com/RealJayEnvy"><i class="fab fa-twitter"></i></a>
+        <a class="icons" target="_blank" href="https://www.instagram.com/jay.env/"><i class="fab fa-instagram"></i></a>
+        <a class="icons" target="_blank" href="https://www.linkedin.com/in/jelle-vermeulen-7202868b/"> <i class="fab fa-linkedin-in"></i></a>
   
       </div>
       <div class="copyrights">

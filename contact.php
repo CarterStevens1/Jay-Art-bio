@@ -39,7 +39,7 @@
           class="feedback-input"
           placeholder="Comment"
         ></textarea>
-        <input type="submit" value="SUBMIT" />
+        <input type="submit" value="SUBMIT" name="submit"/>
       </form>
     </div>
     <?php include('footer.php'); ?>
